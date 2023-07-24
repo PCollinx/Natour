@@ -35,6 +35,10 @@
 
         @include respond(phone) {
             width: 88%;
+            display: flex;
+            flex-direction: column;
+            max-height: fit-content;
+            padding: 5px 0;
         }
 
         @include respond(tab-land) {
